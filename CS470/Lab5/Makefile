@@ -4,13 +4,9 @@ CC=gcc
 # Define any compile-time flags
 CFLAGS=-Wall
 
-# Define the target executable name
-TARGET=scheduler
-
 all:
-	$(CC) Isak_testFS.c Isak_libFS.c -o testFS
+	$(CC) Isak_testFS.c Isak_libFS.c -o Isak_testapp
 
 clean:
-	rm -f testFS
-
+	rm -f Isak_testapp
 
