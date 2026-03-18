@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 12, 2026, 4:50:42 PM
+    Author     : cwu
+*/
+section {
+
+    h2 {
+        padding-top: 3px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    p {
+        padding-top: 3px;
+        padding-bottom: 10px;
+    }
+    
+    #page {
+        margin-bottom: 50px;
+    }
+
+    #images {
+
+        div {
+            text-align: center;
+            font-size: 90%;
+
+            img {
+                width: auto;
+                height: auto;
+                margin: auto;
+            }
+        }
+        .bx-viewport {
+            padding: 10px;
+        }
+    }
+
+    .bx-wrapper {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

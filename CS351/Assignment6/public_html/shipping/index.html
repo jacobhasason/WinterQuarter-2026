@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+
+<!-- Shipping HTML page -->
+<!-- NO CLASSES OR IDS ALLOWED IN FOOTER -->
+
+
+<html>
+    <head>
+        <title> Shipping </title>
+        <link rel = "stylesheet" href ="../styles/main.css">
+        <link rel = "stylesheet" href ="../styles/shipping.css">
+    </head>
+
+    <body>
+        <header>
+            <img src ="../images/misc/FenderStratocasterHeader.png" alt ="Fender Stratocaster">
+            <h2> The Guitar Store </h2>
+            <h3> For rock stars everywhere! </h3>
+        </header>
+
+        <!-- Horizontal Navigation -->
+        <nav>
+            <ul>
+                <li> <a href ="../index.html"> Home </a> </li>
+                <li> <a href ="../lessons/index.html"> Lessons </a> </li>
+                <li> <a href ="../products/index.html"> Products </a> </li>
+                <li> <a href ="../support/index.html"> Support </a>
+                <li> <a href ="../shipping/index.html"> Shipping </a> 
+                <li>
+                    <a href ="../contact/index.html"> Contact Us </a> 
+                    <ul> 
+                        <li> <a href ="../contact/email.html"> Email </a> </li>
+                        <li> <a href ="../contact/phone.html"> Phone </a> </li>
+                        <li> <a href ="../contact/phone.html"> Chat </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <section>
+                <h2>Shipping Costs</h2>
+                <div>
+                    <label for="product">Enter the cost of the product:</label>
+                    <input type="text" id="product" name="product" title="Enter product cost here">
+
+                    <input type="button" id="calculate" name="calculate" value="Calculate">
+                </div>
+
+                <div>    
+                    <label for="totalCost">Total cost, including shipping:</label>
+                    <input type="text" id="totalCost" name="totalCost" readonly>    
+                </div>
+
+
+            </section>
+
+            <!-- Vertical Navigation -->
+            <aside> 
+                <ul>
+                    <li> <a href ="../products/guitars/index.html"> Guitars </a> </li>
+                    <li> <a href ="../products/basses/index.html"> Basses </a> </li>
+                    <li> <a href ="../products/drums/index.html"> Drums </a> </li>
+                    <li> <a href ="../products/keyboards/index.html"> Keyboards </a> </li>  
+                </ul>
+            </aside>
+
+
+
+        </main>
+
+        
+        <footer> 
+            <div>
+                &copy 2023 The Guitar Shop 
+            </div>
+            <div> 
+            
+            </div>
+        </footer>
+        
+        <script src="../scripts/shipping.js"></script>
+        <script src="../scripts/date.js"></script> 
+
+    </body>
+</html>

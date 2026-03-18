@@ -1,0 +1,27 @@
+section {
+    ul {
+        padding-left: 45px;
+    }
+    li {
+        padding-bottom: .5em;
+    }
+    /* Answers */
+    div {
+         padding-bottom: .5em;
+    }
+    
+   
+    /* FAQ */
+    #accordion {
+        h3 {
+            z-index: 1;
+            
+        }
+        margin-bottom: 20px;
+    }
+}
+
+/* Horizontal Nav Bar */
+ nav ul ul {
+        z-index: 10;
+    }
