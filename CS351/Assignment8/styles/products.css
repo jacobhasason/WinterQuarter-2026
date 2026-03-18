@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 19, 2026, 10:30:54 PM
+    Author     : cwu
+*/
+
+table {
+    border: 1px solid black;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+}
+
+.right {
+    text-align: right;
+}
+
+form {
+    margin: 0;
+}
+
+
