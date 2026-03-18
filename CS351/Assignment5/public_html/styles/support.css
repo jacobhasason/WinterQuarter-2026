@@ -1,0 +1,61 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 5, 2026, 4:40:41 PM
+    Author     : isak j
+*/
+
+
+section {
+    h2 {
+        font-size: 150%;
+    }
+    
+    /* Default Questions */
+    h3 {
+        font-size: 120%;
+        padding-top: .25em; 
+        padding-bottom: .25em; 
+        padding-left: 25px;
+        background: url("../images/misc/plus.png");
+        background-position: left center;
+        background-repeat: no-repeat;
+        color: purple; 
+    }
+   
+    /* Opened Questions */
+    h3.minus {
+        background: url("../images/misc/minus.png");
+        background-position: left center;
+        background-repeat: no-repeat;
+        color: blue;  
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    /* Hidden Responses Default */
+    div {
+        display: none;    
+    }
+    
+    /* Opened Responses */
+    div.open {
+        display: block;
+    }
+    
+    ul {
+        padding-left: 45px;
+    }
+    
+    p {
+        padding-left: 25px
+    }
+}
+
+
+
