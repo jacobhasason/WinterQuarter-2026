@@ -1,2 +1,2 @@
-The WWW folder contains all of my work from my assignment in the Web Development class at CWU. Assignment 9 is currently incomplete but other web design functionality is demonstrated. 
+This folder contains all of my work from my assignments in the Web Development class at CWU. Assignment 9 is currently partially complete as of writing but other web design functionality is demonstrated. 
 A WAMP server, Netbeans and mySQL is required to run the project. 
